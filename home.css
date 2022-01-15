@@ -7,7 +7,7 @@
 .container{
     height: 100vh;
     width: 100%;
-    background-image: url(Imagens/Untitled\ \(5\).png);
+    background-image: url(Imagens/fundo.png);
     background-position: center;
     background-size: cover;
     padding-left: 5%;
@@ -70,4 +70,33 @@ margin-left: 60px;
     margin-top: 24px;
     margin-bottom: 15px;
     color: black;
+}
+
+.content .btn{
+display: inline-block;
+font-family: 'Oswald', sans-serif;
+background:linear-gradient(45deg, #96856C, #96856C);
+border-radius: 15px;
+margin-top: 50px;
+margin-left: 300px;
+padding: 10px 20px;
+box-sizing: border-box;
+text-decoration: none;
+color: white;
+box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+cursor: pointer;
+}
+
+.icons{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -60px;
+    bottom: 120px;
+}
+
+.icons a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding-right: 20px;
+    font-size: 14px;
 }
