@@ -1,3 +1,73 @@
-body {
-    background-color: #F9F1E8;
-    }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Imagens/Untitled\ \(5\).png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar{
+height: auto;
+width: auto;
+margin: auto;
+display: flex;
+align-items: center;
+}
+
+.logo{
+width: 80px;
+cursor: pointer;
+margin-left: -90px;
+}
+
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black
+}
+
+.options{
+font-family: 'Oswald', sans-serif;
+margin-left: 60px;
+
+}
+
+.content h1{
+    font-family: 'Oswald', sans-serif;
+    text-decoration: bold;
+    font-size: 80px;
+    font-weight: 500;
+    margin-top: 65px;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.content p{
+    font-family: 'Oswald', sans-serif;
+    font-weight:600;
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: black;
+}
