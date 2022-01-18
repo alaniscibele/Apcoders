@@ -1,0 +1,21 @@
+* {
+    font-family: "Oswald", sans-serif;
+    background-color: #f9f1e8;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td,
+  th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #e2d1b9;
+  }
+  
