@@ -11,7 +11,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   margin: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 .container {
@@ -73,8 +73,8 @@ label {
   margin: 10px 0;
 }
 
-input[type='text'],
-input[type='number'] {
+input[type="text"],
+input[type="number"] {
   border: 1px solid #dedede;
   border-radius: 2px;
   display: block;
@@ -85,7 +85,7 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: #96856C;
+  background-color: #96856c;
   box-shadow: var(--box-shadow);
   color: rgb(255, 255, 255);
   border: 0;

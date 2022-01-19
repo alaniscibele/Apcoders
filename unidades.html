@@ -1,47 +1,65 @@
 <!DOCTYPE html>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@600&display=swap"
-  rel="stylesheet">
+<link
+  href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@600&display=swap"
+  rel="stylesheet"
+/>
 <link rel="stylesheet" href="unidades.css" />
 <html>
   <!DOCTYPE html>
   <html lang="en" dir="ltr">
     <head>
-      <meta charset="UTF-8">
-     <title>Ap Coders</title>
-     </head>
-  <body>
-    
-    <div class="container">
-      <div class="title">Cadastro de Unidades</div>
-      <div class="content">
-        <form action="#">
-          <div class="user-details">
-            <div class="input-box">
-              <span class="details">Proprietário</span>
-              <input type="text" placeholder="Digite o nome do proprietário" required>
+      <meta charset="UTF-8" />
+      <title>Ap Coders</title>
+    </head>
+    <body>
+      <div class="container">
+        <div class="title">Cadastro de Unidades</div>
+        <div class="content">
+          <form action="#">
+            <div class="user-details">
+              <div class="input-box">
+                <span class="details">Proprietário</span>
+                <input
+                  type="text"
+                  placeholder="Digite o nome do proprietário"
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <span class="details">Endereço</span>
+                <input
+                  type="text"
+                  placeholder="Escreva seu endereço"
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <span class="details">Número da unidade</span>
+                <input
+                  type="number"
+                  pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}"
+                  placeholder="Digite o número da unidade"
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <span class="details">Condomínio</span>
+                <input
+                  type="text"
+                  placeholder="Escreva o nome do condomínio"
+                  required
+                />
+              </div>
             </div>
-            <div class="input-box">
-              <span class="details">Endereço</span>
-              <input type="text" placeholder="Escreva seu endereço" required>
+            <div class="button">
+              <input type="submit" value="Cadastrar" />
             </div>
-            <div class="input-box">
-              <span class="details">Número da unidade</span>
-              <input type='number' pattern='[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}' placeholder="Digite o número da unidade" required>
-            </div>
-            <div class="input-box">
-              <span class="details">Condomínio</span>
-              <input type="text" placeholder="Escreva o nome do condomínio" required>
-            </div>
-          </div>
-          <div class="button">
-            <input type="submit" value="Cadastrar">
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
-    </div>
-    <div class="content"> 
-    <div><a href="lista.html" class="lista">Visualizar Cadastrados</a></div>
-  </div>
-  </body>
+      <div class="content">
+        <div><a href="lista.html" class="lista">Visualizar Cadastrados</a></div>
+      </div>
+    </body>
   </html>
-  
+</html>

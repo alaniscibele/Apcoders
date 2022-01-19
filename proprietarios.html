@@ -1,67 +1,77 @@
 <!DOCTYPE html>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@600&display=swap"
-  rel="stylesheet">
+<link
+  href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@600&display=swap"
+  rel="stylesheet"
+/>
 <link rel="stylesheet" href="proprietarios.css" />
 <html>
   <!DOCTYPE html>
   <html lang="en" dir="ltr">
     <head>
-      <meta charset="UTF-8">
-     <title>Ap Coders</title>
-     </head>
-  <body>
-    
-    <div class="container">
-      <div class="title">Cadastro</div>
-      <div class="content">
-        <form action="#">
-          <div class="user-details">
-            <div class="input-box">
-              <span class="details">Nome completo</span>
-              <input type="text" placeholder="Digite seu nome completo" required>
+      <meta charset="UTF-8" />
+      <title>Ap Coders</title>
+    </head>
+    <body>
+      <div class="container">
+        <div class="title">Cadastro</div>
+        <div class="content">
+          <form action="#">
+            <div class="user-details">
+              <div class="input-box">
+                <span class="details">Nome completo</span>
+                <input
+                  type="text"
+                  placeholder="Digite seu nome completo"
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <span class="details">Email</span>
+                <input type="email" placeholder="Digite seu email" required />
+              </div>
+              <div class="input-box">
+                <span class="details">Número de telefone</span>
+                <input
+                  type="number"
+                  pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}"
+                  placeholder="Digite seu número de telefone"
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <span class="details">Idade</span>
+                <input type="number" placeholder="Digite sua Idade" required />
+              </div>
             </div>
-            <div class="input-box">
-              <span class="details">Email</span>
-              <input type="email" placeholder="Digite seu email" required>
+            <div class="gender-details">
+              <input type="radio" name="gender" id="dot-1" />
+              <input type="radio" name="gender" id="dot-2" />
+              <input type="radio" name="gender" id="dot-3" />
+              <span class="gender-title">Genero</span>
+              <div class="category">
+                <label for="dot-1">
+                  <span class="dot one"></span>
+                  <span class="gender">Homem</span>
+                </label>
+                <label for="dot-2">
+                  <span class="dot two"></span>
+                  <span class="gender">Mulher</span>
+                </label>
+                <label for="dot-3">
+                  <span class="dot three"></span>
+                  <span class="gender">Prefiro não dizer</span>
+                </label>
+              </div>
             </div>
-            <div class="input-box">
-              <span class="details">Número de telefone</span>
-              <input type='number' pattern='[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}' placeholder="Digite seu número de telefone" required>
+            <div class="button">
+              <input type="submit" value="Cadastrar" />
             </div>
-            <div class="input-box">
-              <span class="details">Idade</span>
-              <input type="number" placeholder="Digite sua Idade" required>
-            </div>
-          </div>
-          <div class="gender-details">
-            <input type="radio" name="gender" id="dot-1">
-            <input type="radio" name="gender" id="dot-2">
-            <input type="radio" name="gender" id="dot-3">
-            <span class="gender-title">Genero</span>
-            <div class="category">
-              <label for="dot-1">
-              <span class="dot one"></span>
-              <span class="gender">Homem</span>
-            </label>
-            <label for="dot-2">
-              <span class="dot two"></span>
-              <span class="gender">Mulher</span>
-            </label>
-            <label for="dot-3">
-              <span class="dot three"></span>
-              <span class="gender">Prefiro não dizer</span>
-              </label>
-            </div>
-          </div>
-          <div class="button">
-            <input type="submit" value="Cadastrar">
-          </div>
-        </form>
+          </form>
+        </div>
       </div>
-    </div>
-    <div class="content"> 
-    <div><a href="lista.html" class="lista">Visualizar Cadastrados</a></div>
-  </div>
-  </body>
+      <div class="content">
+        <div><a href="lista.html" class="lista">Visualizar Cadastrados</a></div>
+      </div>
+    </body>
   </html>
-  
+</html>

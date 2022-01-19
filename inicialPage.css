@@ -1,118 +1,115 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
 }
 
 body {
-    background: #F9F1E8;
-    height: 100vh;
-    width: 100%;
+  background: #f9f1e8;
+  height: 100vh;
+  width: 100%;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    color: #000000;
+  color: #000000;
 
-    font-size: 16px;
+  font-size: 16px;
 }
 
 main.cards {
-    display: flex;
-    padding: 32px;
+  display: flex;
+  padding: 32px;
 }
 
-
 main.cards section.card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background: #d1a679;
-    padding: 1rem 1.5rem;
-    border-radius: 8px;
-    max-height: 500px;
-    margin-left: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #d1a679;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  max-height: 500px;
+  margin-left: 32px;
 }
 
 main.cards section.card:first-child {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 main.cards section.card .icon {
-    width: 400px;
-    height: 400px;
+  width: 400px;
+  height: 400px;
 }
 
 main.cards section.card img {
-    width: 100%;
+  width: 100%;
 }
 
 main.cards section.card h3 {
-    font-size: 25px;
-    margin: 16px 0;
-    margin-top: -97px;
+  font-size: 25px;
+  margin: 16px 0;
+  margin-top: -97px;
 }
 
 main.cards section.card span {
-    font-weight: 300;
-    max-width: 240px;
-    font-size: 80%;
-    margin-bottom: 16px;
+  font-weight: 300;
+  max-width: 240px;
+  font-size: 80%;
+  margin-bottom: 16px;
 }
 
 main.cards section.card .btn {
-    padding: 0.5rem 1rem;
-    text-transform: uppercase;
-    border-radius: 32px;
-    border: 0;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 80%;
-    font-weight: 500;
-    color: rgb(0, 0, 0);
-    margin-bottom: 16px 0;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  border-radius: 32px;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 80%;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  margin-bottom: 16px 0;
 }
 
 main.cards section.card.contact .btn {
-    background: #E2D1B9;
+  background: #e2d1b9;
 }
 main.cards section.card.shop .btn {
-    background: #E2D1B9;
+  background: #e2d1b9;
 }
 main.cards section.card.about .btn {
-    background: #E2D1B9;
+  background: #e2d1b9;
 }
 
 main.cards section.card.contact {
-    box-shadow: 20px 20px 50px -30px #AF8F6C;
+  box-shadow: 20px 20px 50px -30px #af8f6c;
 }
 main.cards section.card.shop {
-    box-shadow: 20px 20px 50px -30px #AF8F6C;;
+  box-shadow: 20px 20px 50px -30px #af8f6c;
 }
 main.cards section.card.about {
-    box-shadow: 20px 20px 50px -30px #AF8F6C;
+  box-shadow: 20px 20px 50px -30px #af8f6c;
 }
 
 @media screen and (max-width: 720px) {
-    main.cards {
-        flex-direction: column;
-    }
+  main.cards {
+    flex-direction: column;
+  }
 
-    main.cards section.card {
-        margin-left: 0;
-        margin-bottom: 32px;
-    }
+  main.cards section.card {
+    margin-left: 0;
+    margin-bottom: 32px;
+  }
 
-    main.cards section.card:last-child {
-        margin-bottom: 0;
-    }
+  main.cards section.card:last-child {
+    margin-bottom: 0;
+  }
 
-    main.cards section.card button {
-        font-size: 70%;
-    }
-
+  main.cards section.card button {
+    font-size: 70%;
+  }
 }
-
