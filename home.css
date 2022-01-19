@@ -4,18 +4,6 @@
     padding: 0;
 }
 
-.container{
-    height: 100vh;
-    width: 100%;
-    background-image: url(Imagens/fundo.png);
-    background-position: center;
-    background-size: cover;
-    padding-left: 5%;
-    padding-right: 5%;
-    box-sizing: border-box;
-    position: relative;
-}
-
 .navbar{
 height: auto;
 width: auto;
@@ -106,4 +94,16 @@ cursor: pointer;
     color: rgb(0, 0, 0);
     padding-right: 20px;
     font-size: 14px;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Imagens/fundo.png);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box;
+    position: fixed;
 }
