@@ -102,7 +102,7 @@ namespace APICondominio.DAO
                 cmd.CommandType = System.Data.CommandType.Text;
                 SqlDataReader reader = cmd.ExecuteReader();
 
-                while(reader.Read())
+                while (reader.Read())
                 {
                     var model = new PessoaModel();
 
