@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "854cb1cf-68b7-4a38-a17e-493249411feb": {
+      "ProjectGuid": "854cb1cf-68b7-4a38-a17e-493249411feb",
+      "DisplayName": "WebApplication1",
+      "ColorIndex": 0
+    },
+    "727ce310-6d2a-4ebd-bda4-8586d844efa3": {
+      "ProjectGuid": "727ce310-6d2a-4ebd-bda4-8586d844efa3",
+      "DisplayName": "APICondominio",
+      "ColorIndex": 1
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 2
+}
